@@ -26,7 +26,7 @@ Connect to LLMs: Interact with Google's Gemini 2.5 Flash via API.
 
 Prompt Engineering: Use Langchain chains to structure predictable outputs.
 
-RAG (Retrieval-Augmented Generation): Ground the AI in private enterprise data (e.g., SLPTA Transport Policies) using Vector Databases (ChromaDB) to eliminate hallucinations.
+RAG (Retrieval-Augmented Generation): Ground the AI in private enterprise data (e.g., public transport Policies) using Vector Databases (ChromaDB) to eliminate hallucinations.
 
 AI Agents (ReAct): Build autonomous agents that can trigger Python tools to fetch real-time route statuses or SQL audit logs.
 
