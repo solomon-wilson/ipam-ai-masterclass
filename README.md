@@ -2,7 +2,7 @@
 
 Welcome to the AI Masterclass for Final-Year Information Systems & Technology Students at IPAM University of Sierra Leone!
 
-Facilitator: Solomon Wilson | Deputy HOD IT & Audit, Sierra Leone Public Transport Authority (SLPTA)
+Facilitator: Solomon Wilson
 
 This repository contains all the materials, presentation slides, and hands-on code required to build enterprise-grade AI applications with zero budget. We are moving beyond simple chatbots to build Reasoning Engines that can query public transport schedules, analyze audit logs, and automate compliance tasks.
 
