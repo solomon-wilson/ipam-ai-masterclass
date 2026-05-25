@@ -22,13 +22,25 @@ Course Fee: Le1,000
 
 📁 Repository Structure
 
-📦 ipam-advanced-ai-course
+📦 ipam-ai-masterclass
  ┣ 📂 week-1-foundations
- ┃ ┗ 📜 Day1_to_Day5_Notebooks.ipynb
+ ┃ ┣ 📜 day1_setup.ipynb
+ ┃ ┣ 📜 day2_llm_apis.ipynb
+ ┃ ┣ 📜 day3_prompt_engineering.ipynb
+ ┃ ┣ 📜 day4_langchain_basics.ipynb
+ ┃ ┗ 📜 day5_pydantic_schema.ipynb
  ┣ 📂 week-2-vector-rag
- ┃ ┗ 📜 Day6_to_Day10_Notebooks.ipynb
+ ┃ ┣ 📜 day1_embeddings.ipynb
+ ┃ ┣ 📜 day2_vector_databases.ipynb
+ ┃ ┣ 📜 day3_document_loaders.ipynb
+ ┃ ┣ 📜 day4_basic_rag.ipynb
+ ┃ ┗ 📜 day5_advanced_rag.ipynb
  ┣ 📂 week-3-agents
- ┃ ┗ 📜 Day11_to_Day15_Notebooks.ipynb
+ ┃ ┣ 📜 day1_react_architecture.ipynb
+ ┃ ┣ 📜 day2_tool_calling.ipynb
+ ┃ ┣ 📜 day3_langchain_agents.ipynb
+ ┃ ┣ 📜 day4_capstone_workshop.ipynb
+ ┃ ┗ 📜 day5_final_presentations.ipynb
  ┣ 📂 presentations
  ┃ ┗ 📜 IPAM_USL_Course_Slides.pptx
  ┗ 📜 README.md
@@ -36,43 +48,43 @@ Course Fee: Le1,000
 
 🎯 3-Week Hands-On Curriculum
 
-This course is strictly hands-on. Every concept is paired with Python implementation.
+This course is strictly hands-on. Every concept is paired with Python implementation. Click the [📓 Download Notebook] links to view or download the code for each specific day.
 
 Week 1: LLM Foundations & Advanced Prompt Engineering (June 15 - 19)
 
-Day 1: Introduction to the Modern AI Ecosystem & Environment Setup (Google Colab, API Keys).
+Day 1: Introduction to the Modern AI Ecosystem & Environment Setup (Google Colab, API Keys). - 📓 Download Notebook
 
-Day 2: Interacting with LLMs via APIs (Google Gemini 1.5 Flash).
+Day 2: Interacting with LLMs via APIs (Google Gemini 1.5 Flash). - 📓 Download Notebook
 
-Day 3: Prompt Engineering Techniques (Few-Shot, Chain-of-Thought).
+Day 3: Prompt Engineering Techniques (Few-Shot, Chain-of-Thought). - 📓 Download Notebook
 
-Day 4: LangChain Basics: Prompt Templates & Output Parsers.
+Day 4: LangChain Basics: Prompt Templates & Output Parsers. - 📓 Download Notebook
 
-Day 5: Structured Data Extraction using Pydantic (Schema Validation).
+Day 5: Structured Data Extraction using Pydantic (Schema Validation). - 📓 Download Notebook
 
 Week 2: Enterprise Memory & RAG Systems (June 22 - 26)
 
-Day 1: Understanding Text Embeddings and High-Dimensional Vector Spaces.
+Day 1: Understanding Text Embeddings and High-Dimensional Vector Spaces. - 📓 Download Notebook
 
-Day 2: Introduction to Vector Databases (Local implementation with ChromaDB).
+Day 2: Introduction to Vector Databases (Local implementation with ChromaDB). - 📓 Download Notebook
 
-Day 3: Document Loaders & Text Splitters (Processing PDFs, CSVs, and SQL Logs).
+Day 3: Document Loaders & Text Splitters (Processing PDFs, CSVs, and SQL Logs). - 📓 Download Notebook
 
-Day 4: Building a basic Retrieval-Augmented Generation (RAG) Chain.
+Day 4: Building a basic Retrieval-Augmented Generation (RAG) Chain. - 📓 Download Notebook
 
-Day 5: Advanced RAG: Semantic routing and preventing AI hallucinations on private data.
+Day 5: Advanced RAG: Semantic routing and preventing AI hallucinations on private data. - 📓 Download Notebook
 
 Week 3: Autonomous AI Agents & Capstone Projects (June 29 - July 3)
 
-Day 1: Introduction to ReAct Architecture (Reasoning + Acting).
+Day 1: Introduction to ReAct Architecture (Reasoning + Acting). - 📓 Download Notebook
 
-Day 2: Tool Calling: Binding Python functions to LLMs.
+Day 2: Tool Calling: Binding Python functions to LLMs. - 📓 Download Notebook
 
-Day 3: Building an Agent with LangChain to query external APIs and Databases.
+Day 3: Building an Agent with LangChain to query external APIs and Databases. - 📓 Download Notebook
 
-Day 4: Capstone Project Development Workshop.
+Day 4: Capstone Project Development Workshop. - 📓 Download Notebook
 
-Day 5: Final Project Presentations & Course Conclusion.
+Day 5: Final Project Presentations & Course Conclusion. - 📓 Download Notebook
 
 🛠️ Pre-requisites & Setup
 
@@ -121,7 +133,7 @@ os.environ["GOOGLE_API_KEY"] = userdata.get('GEMINI_API_KEY')
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Initialize the Gemini LLM
-llm = ChatGoogleGenerativeAI(model="gemini-2.5-flash", temperature=0)
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", temperature=0)
 
 # Test the brain
 response = llm.invoke("What is the capital of Sierra Leone?")
