@@ -2,7 +2,7 @@
 
 Welcome to the AI Masterclass for Final-Year Information Systems & Technology Students at IPAM University of Sierra Leone!
 
-Facilitator: Solomon Wilson
+Facilitator: Solomon Wilson MBCS | AI & Data Professional
 
 This repository contains all the materials, presentation slides, and hands-on code required to build enterprise-grade AI applications with zero budget. We are moving beyond simple chatbots to build Reasoning Engines that can query public transport schedules, analyze audit logs, and automate compliance tasks.
 
@@ -10,7 +10,7 @@ This repository contains all the materials, presentation slides, and hands-on co
 
 📦 ipam-ai-masterclass
  ┣ 📂 presentations
- ┃ ┗ 📜 IPAM_USL_AI_Masterclass.pptx    # Downloadable slide deck
+ ┃ ┗ 📜 IPAM_USL_AI_Masterclass.pdf    # Downloadable slide deck
  ┣ 📂 notebooks
  ┃ ┗ 📜 AI_Masterclass_HandsOn.ipynb    # Main Google Colab Notebook
  ┗ 📜 README.md                         # You are here!
@@ -22,7 +22,7 @@ This repository contains all the materials, presentation slides, and hands-on co
 
 In this 2-hour hands-on session, you will learn how to:
 
-Connect to LLMs: Interact with Google's Gemini 1.5 Flash via API.
+Connect to LLMs: Interact with Google's Gemini 2.5 Flash via API.
 
 Prompt Engineering: Use Langchain chains to structure predictable outputs.
 
