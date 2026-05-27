@@ -2,7 +2,7 @@
 
 Welcome to the Advanced Artificial Intelligence Short Course for Year 3 and 4 students at the Faculty of Information Systems & Technology, IPAM University of Sierra Leone!
 
-Facilitator: Solomon Wilson | Deputy HOD IT & Audit, Sierra Leone Public Transport Authority (SLPTA)
+Facilitator: Solomon Wilson | HOD IT & Audit, Sierra Leone Public Transport Authority (SLPTA)
 
 This repository contains all the materials, daily code notebooks, and project guidelines required for the 3-week intensive program. We are moving beyond basic chatbot interactions to build enterprise-grade Reasoning Engines and Autonomous AI Agents using zero-budget cloud tools.
 
